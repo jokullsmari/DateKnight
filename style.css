@@ -317,12 +317,12 @@ body {
   overflow: hidden;
   transition: max-height 0.3s ease, padding 0.3s ease;
   padding: 0 24px;
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: #6b4e35;
 }
 
 .accordion-item.open .accordion-content {
-  max-height: 200px;
+  max-height: 250px;
   padding: 0 24px 18px;
 }
 
