@@ -322,7 +322,7 @@ body {
 }
 
 .accordion-item.open .accordion-content {
-  max-height: 250px;
+  max-height: 500px;
   padding: 0 24px 18px;
 }
 
