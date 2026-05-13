@@ -238,14 +238,14 @@ body {
 
 .umOkkurText{
   color: black;
-    padding-right: 40vh;
-    padding-left: 40vh;
-    padding-bottom: 10vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
+    padding-bottom: vh;
     text-align: center;
 }
 
 .innihaldUppl{
-    margin: 30px;
+    margin: 10px;
 }
 
 .innihaldStorTexti{
@@ -341,4 +341,95 @@ body {
 .candyImage{
   width:  50vh;
 
+}
+
+.info-box {
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 40px auto;
+    width: 80%;
+    background-color: rgb(253, 243, 215);
+}
+
+/* ── MOBILE ONLY (max 768px) ── */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 5vw;
+    gap: 10px;
+  }
+
+  .navbar nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .navbar nav a {
+    margin-left: 0;
+    font-size: 0.8rem;
+  }
+
+  /* Hero */
+  .hero {
+    flex-direction: column;
+    padding: 30px 5vw;
+    text-align: center;
+    min-height: auto;
+  }
+
+  .hero-text h2 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text h3 {
+    font-size: 1rem;
+  }
+
+  .candyImage {
+    width: 80vw;
+  }
+
+  /* Innihald */
+  .innihald-layout {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .innihald-img {
+    width: 80vw;
+  }
+
+  .accordion {
+    width: 100%;
+  }
+
+  /* Info boxes */
+  .info-box {
+    width: 90%;
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .umOkkurText {
+    padding: 0 2vw 5vh;
+  }
+
+  .features-title2 {
+    padding-top: 4vh;
+    font-size: 1.8rem;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 24px 10px;
+  }
+
+  .footerText h3 {
+    font-size: 1rem;
+  }
 }
